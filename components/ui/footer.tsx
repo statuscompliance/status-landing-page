@@ -23,7 +23,7 @@ export default function Footer() {
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">STATUS</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentación</a>
+                <a href="https://status-docs.netlify.app" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentación</a>
               </li>
               <li className="mb-2">
                 <a href="https://www.apache.org/licenses/LICENSE-2.0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Licencia</a>
