@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Bienvenido a STATUS',
-  description: 'STATUS es una aplicación de código abierto para la gestión de la conformidad de procesos de negocio desarrollado por la Universidad de Sevilla.',
+  title: 'Welcome to STATUS',
+  description: 'STATUS is an open source application for business process compliance management developed by the University of Seville.',
 }
 
 import Hero from '@/components/hero'
