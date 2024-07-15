@@ -29,9 +29,9 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-4xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Optimiza la gestión de la conformidad de tus procesos con <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-gray-300">STATUS</span></h1>
+            <h1 className="text-4xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Optimise the compliance management of your processes with <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-gray-300">STATUS</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Descubre cómo gestionar la conformidad de tus procesos de negocio de manera efectiva</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Find out how to manage the compliance of your business processes effectively.</p>
             </div>
           </div>
 

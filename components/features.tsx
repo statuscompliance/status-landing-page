@@ -33,7 +33,7 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Conoce algún caso de uso</h1>
+            <h1 className="h2 mb-4">Know some of the use cases</h1>
           </div>
 
           {/* Section content */}
@@ -42,8 +42,8 @@ export default function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Mide la conformidad en tu empresa de forma ágil y sencilla</h3>
-                <p className="text-xl text-gray-600">Con STATUS podrás medir el cumplimiento de estándares, normas y políticas de tu empresa de forma sencilla mediante cuadros de mando que miden la conformidad</p>
+                <h3 className="h3 mb-3">Measure compliance in your company quickly and easily</h3>
+                <p className="text-xl text-gray-600">With STATUS you can easily measure your company's compliance with standards, norms and policies through dashboards that measure compliance.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -53,8 +53,8 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Normas ISO</div>
-                    <div className="text-gray-600">Monitorea el cumplimiento de las normas ISO en tu organización, simplificando los procesos de auditoría interna, certificación y gestión de calidad, asegurando que todas las áreas cumplan con los estándares internacionales establecidos.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">ISO Standards</div>
+                    <div className="text-gray-600">Monitor your organisation's compliance with ISO standards, simplifying internal auditing, certification and quality management processes, ensuring that all areas comply with established international standards.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -68,8 +68,8 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">RGPD y LOPD</div>
-                    <div className="text-gray-600">Supervisa la conformidad de las leyes y reglas de protección de datos en tu empresa, simplificando las auditorías de RGPD y garantizando la protección de la información personal de tus clientes y empleados, minimizando riesgos de sanciones y mejorando la confianza de los usuarios.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">GDPR and LOPD</div>
+                    <div className="text-gray-600">Monitor your company's compliance with data protection laws and rules, simplifying GDPR audits and ensuring the protection of your customers' and employees' personal information, minimising the risk of sanctions and improving user confidence.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -83,8 +83,8 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">CMMI y metodologías de gestión de proyectos</div>
-                    <div className="text-gray-600">Controla y evalúa el cumplimiento de estándares y metodologías en los procesos de tu organización, mejorando la eficiencia y la calidad de los proyectos, optimizando recursos y facilitando la madurez de los procesos para alcanzar los objetivos estratégicos.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">CMMI and project management methodologies</div>
+                    <div className="text-gray-600">Controls and evaluates compliance with standards and methodologies in your organisation's processes, improving the efficiency and quality of projects, optimising resources and facilitating the maturity of processes to achieve strategic objectives.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

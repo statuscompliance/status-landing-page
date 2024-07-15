@@ -17,16 +17,16 @@ export default function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 sm:col-start-7 md:col-span-3 lg:col-span-2 lg:col-start-11">
-            <h6 className="text-gray-800 font-medium mb-2">Destacados</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Featured</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">STATUS</a>
               </li>
               <li className="mb-2">
-                <a href="https://status-docs.netlify.app" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentación</a>
+                <a href="https://status-docs.netlify.app" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</a>
               </li>
               <li className="mb-2">
-                <a href="https://www.apache.org/licenses/LICENSE-2.0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Licencia</a>
+                <a href="https://www.apache.org/licenses/LICENSE-2.0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">License</a>
               </li>
             </ul>
           </div>
@@ -47,7 +47,7 @@ export default function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">&copy; Universidad de Sevilla. Todos los derechos reservados.</div>
+          <div className="text-sm text-gray-600 mr-4">&copy; University of Seville. All rights reserved.</div>
 
         </div>
 
