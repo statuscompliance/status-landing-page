@@ -116,7 +116,6 @@ export default function Features() {
                     <Transition
                       show={tab === 1}
                       appear={true}
-                      className="w-full"
                       enter="transition ease-in-out duration-700 transform order-first"
                       enterFrom="opacity-0 translate-y-16"
                       enterTo="opacity-100 translate-y-0"
@@ -126,7 +125,7 @@ export default function Features() {
                       beforeEnter={() => heightFix()}
                       unmount={false}                     
                     >
-                      <div className="relative inline-flex flex-col">
+                      <div className="w-full relative inline-flex flex-col">
                         <Image className="md:max-w-none mx-auto rounded border border-black border-5 shadow-xl shadow-gray-400" src={FeaturesBg1} width={500} height="462" alt="Features bg" />
                       </div>
                     </Transition>
@@ -134,7 +133,6 @@ export default function Features() {
                     <Transition
                       show={tab === 2}
                       appear={true}
-                      className="w-full"
                       enter="transition ease-in-out duration-700 transform order-first"
                       enterFrom="opacity-0 translate-y-16"
                       enterTo="opacity-100 translate-y-0"
@@ -144,7 +142,7 @@ export default function Features() {
                       beforeEnter={() => heightFix()}
                       unmount={false}                     
                     >
-                      <div className="relative inline-flex flex-col">
+                      <div className="w-full relative inline-flex flex-col">
                         <Image className="md:max-w-none mx-auto rounded border border-black border-5 shadow-xl shadow-gray-400" src={FeaturesBg2} width={500} height="462" alt="Features bg" />
                       </div>
                     </Transition>
@@ -152,7 +150,6 @@ export default function Features() {
                     <Transition
                       show={tab === 3}
                       appear={true}
-                      className="w-full"
                       enter="transition ease-in-out duration-700 transform order-first"
                       enterFrom="opacity-0 translate-y-16"
                       enterTo="opacity-100 translate-y-0"
@@ -162,7 +159,7 @@ export default function Features() {
                       beforeEnter={() => heightFix()}
                       unmount={false}                     
                     >
-                      <div className="relative inline-flex flex-col">
+                      <div className="w-full relative inline-flex flex-col">
                         <Image className="md:max-w-none mx-auto rounded border border-black border-5 shadow-xl shadow-gray-400" src={FeaturesBg3} width={500} height="462" alt="Features bg" />
                       </div>
                     </Transition>

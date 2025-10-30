@@ -41,7 +41,7 @@ export default function Hero() {
             thumbWidth={1024}
             thumbHeight={576}
             thumbAlt="Modal video thumbnail"
-            videoUrl="https://www.youtube.com/embed/JZkFzZzz-qg" />
+            videoUrl="https://www.youtube.com/embed/8hWLCh3mkRg" />
 
         </div>
 
